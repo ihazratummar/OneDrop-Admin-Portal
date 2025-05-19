@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edbf0ffb-5b67-4835-8983-b7839393199c" name="Changes" comment="Refactor donor and request handling, add chart visualizations&#10;&#10;Streamlined donor and blood request data management using Pydantic models. Integrated visualizations for donor statistics and request details with Plotly. Added utilities for time handling and delete confirmation dialogs.">
-      <change afterPath="$PROJECT_DIR$/models/report_model.py" afterDir="false" />
+    <list default="true" id="edbf0ffb-5b67-4835-8983-b7839393199c" name="Changes" comment="Add report management feature with API integration&#10;&#10;Integrated new report management functionality via API, including handling reports with creation, update, and delete operations. Introduced Pydantic models for report validation and enhanced visualization using Streamlit. Updated dependencies in requirements.txt to include Pydantic and Plotly.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_pages/Report.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_pages/Report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +70,20 @@
       <option name="project" value="LOCAL" />
       <updated>1747658054301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add report management feature with API integration&#10;&#10;Integrated new report management functionality via API, including handling reports with creation, update, and delete operations. Introduced Pydantic models for report validation and enhanced visualization using Streamlit. Updated dependencies in requirements.txt to include Pydantic and Plotly.">
+      <option name="closed" value="true" />
+      <created>1747664659527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747664659527</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor donor and request handling, add chart visualizations&#10;&#10;Streamlined donor and blood request data management using Pydantic models. Integrated visualizations for donor statistics and request details with Plotly. Added utilities for time handling and delete confirmation dialogs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor donor and request handling, add chart visualizations&#10;&#10;Streamlined donor and blood request data management using Pydantic models. Integrated visualizations for donor statistics and request details with Plotly. Added utilities for time handling and delete confirmation dialogs." />
+    <MESSAGE value="Add report management feature with API integration&#10;&#10;Integrated new report management functionality via API, including handling reports with creation, update, and delete operations. Introduced Pydantic models for report validation and enhanced visualization using Streamlit. Updated dependencies in requirements.txt to include Pydantic and Plotly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add report management feature with API integration&#10;&#10;Integrated new report management functionality via API, including handling reports with creation, update, and delete operations. Introduced Pydantic models for report validation and enhanced visualization using Streamlit. Updated dependencies in requirements.txt to include Pydantic and Plotly." />
   </component>
 </project>
