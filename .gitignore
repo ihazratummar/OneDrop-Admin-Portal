@@ -12,7 +12,8 @@ __pycache__/
 
 .streamlit/
 /.streamlit/
-
+.idea/
+/.idea
 # Distribution / packaging
 .Python
 build/

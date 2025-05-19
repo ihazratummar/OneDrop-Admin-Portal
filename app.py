@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st #type:ignore
 
 # ✅ This must be the first Streamlit command
 st.set_page_config(

@@ -1,7 +1,7 @@
-import requests
+import requests #type:ignore
 import  os
 from dotenv import load_dotenv
-import streamlit as st
+import streamlit as st #type:ignore
 
 
 load_dotenv()
@@ -15,6 +15,10 @@ headers = {
     "Content-Type": "application/json"
 }
 
+
+"""
+Blood Donor API
+"""
 
 def get_all_donors():
     response = requests.get(f"{BASE_URL}/donors/get-donors", headers=headers)
@@ -43,5 +47,29 @@ def delete_donor(user_id: str):
 
     return response.json()
 
+"""
+Blood Request API
+"""
 
+def get_all_blood_requests():
+    response = requests.get(f"{BASE_URL}/blood-request/get-blood-requests", headers=headers)
+    return response.json()
+
+def delete_blood_request(request_id: str):
+    url = f"{BASE_URL}/blood-request/delete-blood-request"
+    params = {"bloodRequestId": request_id}
+    response = requests.delete(url, headers=headers, params=params)
+
+    if response.status_code != 200:
+        st.error(f"Error deleting blood request: {response.status_code} - {response.text}")
+        response.raise_for_status()
+
+def update_blood_request_status(request_id: str, status: str):
+    url = f"{BASE_URL}/blood-request/status"
+    params = {"bloodRequestId": request_id}
+    response = requests.patch(url, headers=headers, params=params, json = {"bloodRequestStatus": status})
+
+    if response.status_code != 200:
+        st.error(f"Error updating blood request status: {response.status_code} - {response.text}")
+        response.raise_for_status()
 
