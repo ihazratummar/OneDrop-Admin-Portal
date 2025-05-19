@@ -4,27 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edbf0ffb-5b67-4835-8983-b7839393199c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/OneDrop Portal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/BloodRequestModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/donors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="edbf0ffb-5b67-4835-8983-b7839393199c" name="Changes" comment="Refactor donor and request handling, add chart visualizations&#10;&#10;Streamlined donor and blood request data management using Pydantic models. Integrated visualizations for donor statistics and request details with Plotly. Added utilities for time handling and delete confirmation dialogs.">
+      <change afterPath="$PROJECT_DIR$/models/report_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_pages/BloodDonor.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_pages/BloodDonor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_pages/BloodRequests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_pages/BloodRequests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_pages/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_pages/home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_pages/Report.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_pages/Report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +65,19 @@
       <option name="presentableId" value="Default" />
       <updated>1747625150235</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactor donor and request handling, add chart visualizations&#10;&#10;Streamlined donor and blood request data management using Pydantic models. Integrated visualizations for donor statistics and request details with Plotly. Added utilities for time handling and delete confirmation dialogs.">
+      <option name="closed" value="true" />
+      <created>1747658054301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747658054301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Refactor donor and request handling, add chart visualizations&#10;&#10;Streamlined donor and blood request data management using Pydantic models. Integrated visualizations for donor statistics and request details with Plotly. Added utilities for time handling and delete confirmation dialogs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor donor and request handling, add chart visualizations&#10;&#10;Streamlined donor and blood request data management using Pydantic models. Integrated visualizations for donor statistics and request details with Plotly. Added utilities for time handling and delete confirmation dialogs." />
   </component>
 </project>

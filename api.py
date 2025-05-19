@@ -1,6 +1,6 @@
 import requests #type:ignore
 import  os
-from dotenv import load_dotenv
+from dotenv import load_dotenv #type:ignore
 import streamlit as st #type:ignore
 
 
@@ -22,6 +22,8 @@ Blood Donor API
 
 def get_all_donors():
     response = requests.get(f"{BASE_URL}/donors/get-donors", headers=headers)
+    if response.status_code != 200:
+        return []
     return response.json()
 
 
@@ -53,6 +55,8 @@ Blood Request API
 
 def get_all_blood_requests():
     response = requests.get(f"{BASE_URL}/blood-request/get-blood-requests", headers=headers)
+    if response.status_code != 200:
+        return []
     return response.json()
 
 def delete_blood_request(request_id: str):
@@ -71,5 +75,37 @@ def update_blood_request_status(request_id: str, status: str):
 
     if response.status_code != 200:
         st.error(f"Error updating blood request status: {response.status_code} - {response.text}")
+        response.raise_for_status()
+
+
+"""
+Report API
+"""
+
+
+
+def get_all_reports():
+    response = requests.get(f"{BASE_URL}/report/all-reports", headers=headers)
+    response.raise_for_status()
+    if response.status_code != 200:
+        return []
+    return response.json()
+
+def update_report_status(report_id: str, status: str):
+    url = f"{BASE_URL}/report/status"
+    params = {"reportId": report_id}
+    response = requests.patch(url, headers=headers, params=params, json = {"reportStatus": status})
+
+    if response.status_code != 200:
+        st.error(f"Error updating report status: {response.status_code} - {response.text}")
+        response.raise_for_status()
+
+def delete_report(report_id: str):
+    url = f"{BASE_URL}/report/delete"
+    params = {"reportId": report_id}
+    response = requests.delete(url, headers=headers, params=params)
+
+    if response.status_code != 200:
+        st.error(f"Error deleting report: {response.status_code} - {response.text}")
         response.raise_for_status()
 
