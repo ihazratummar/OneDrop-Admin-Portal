@@ -15,7 +15,6 @@ class Donor(BaseModel):
     state: str
     available: bool
     contactNumber: str
-    isContactNumberPrivate: bool
     notificationEnabled: bool
     notificationScope: NotificationScope
     email: Optional[str]

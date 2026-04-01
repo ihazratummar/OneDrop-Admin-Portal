@@ -5,9 +5,11 @@ from enum import Enum
 
 
 class BloodRequestStatus(Enum):
-    OPEN = "Open"
-    CLOSED = "Closed"
-    REJECTED = "Rejected"
+    PENDING = "Pending"
+    ACTIVE = "Active"
+    FULFILLED = "Fulfilled"
+    EXPIRED = "Expired"
+    CANCELED = "Canceled"
 
 class BloodRequestModel(BaseModel):
     id:str

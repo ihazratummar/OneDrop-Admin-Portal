@@ -29,7 +29,7 @@ if donors:
                 name = st.text_input("Name", donor.name)
                 age = st.text_input("Age", donor.age)
                 gender = st.selectbox("Gender", ["Male", "Female"],
-                                      index=["Male", "Female"].index(donor.gender))
+                                      index=["Male", "Female"].index(donor.gender.capitalize()))
                 blood_group = st.selectbox("Blood Group", [bg.value for bg in BloodGroup])
                 contact = st.text_input("Contact Number", donor.contactNumber)
                 city = st.text_input("City", donor.city)
@@ -37,7 +37,6 @@ if donors:
                 state = st.text_input("State", donor.state)
                 email = st.text_input("Email", donor.email)
                 available = st.checkbox("Available", donor.available)
-                is_private = st.checkbox("Private Contact Number", donor.isContactNumberPrivate)
                 notifications = st.checkbox("Notifications Enabled", donor.notificationEnabled)
                 notif_scope = st.selectbox("Notification Scope", [scope.value for scope in NotificationScope])
                 #
@@ -54,7 +53,6 @@ if donors:
                         state=state,
                         available=available,
                         contactNumber=contact,
-                        isContactNumberPrivate=is_private,
                         notificationEnabled=notifications,
                         notificationScope=NotificationScope(notif_scope).value,
                         email=email if email else None

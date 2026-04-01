@@ -8,7 +8,7 @@ load_dotenv()
 
 API_KEY = os.getenv("ONEDROP_API_KEY")
 
-BASE_URL = "https://api.onedrops.online/api"
+BASE_URL = "https://api.onedropblood.top/api"
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",
