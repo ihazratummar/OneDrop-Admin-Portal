@@ -8,6 +8,7 @@ pipeline {
         STATIC_IP = "172.25.0.8"
         PORT = "8501"
         ENV_FILE = "/home/envs/onedrop_portal.env"
+        SECRETS_FILE = "/home/envs/secrets.toml"
     }
 
     stages {
@@ -84,6 +85,7 @@ pipeline {
                             --network ${NETWORK} \
                             --ip ${STATIC_IP} \
                             --env-file ${ENV_FILE} \
+                            -v ${SECRETS_FILE}:/app/.streamlit/secrets.toml:ro \
                             -p 8484:${PORT} \
                             --restart unless-stopped \
                             ${IMAGE}
