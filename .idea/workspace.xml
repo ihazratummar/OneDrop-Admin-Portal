@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edbf0ffb-5b67-4835-8983-b7839393199c" name="Changes" comment="CHANGE PORT">
+    <list default="true" id="edbf0ffb-5b67-4835-8983-b7839393199c" name="Changes" comment="Change Port">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747625150235</updated>
-      <workItem from="1775044790754" duration="4971000" />
+      <workItem from="1775044790754" duration="5846000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor donor and request handling, add chart visualizations&#10;&#10;Streamlined donor and blood request data management using Pydantic models. Integrated visualizations for donor statistics and request details with Plotly. Added utilities for time handling and delete confirmation dialogs.">
       <option name="closed" value="true" />
@@ -138,7 +137,31 @@
       <option name="project" value="LOCAL" />
       <updated>1775055672513</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update docker and jenkins file">
+      <option name="closed" value="true" />
+      <created>1775056732672</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775056732672</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1775056906698</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775056906698</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Change Port">
+      <option name="closed" value="true" />
+      <created>1775057227704</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775057227704</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +174,9 @@
     <MESSAGE value="Added Jenkinsfile File" />
     <MESSAGE value="Changed api url" />
     <MESSAGE value="CHANGE PORT" />
-    <option name="LAST_COMMIT_MESSAGE" value="CHANGE PORT" />
+    <MESSAGE value="Update docker and jenkins file" />
+    <MESSAGE value="Fix Jenkinsfile" />
+    <MESSAGE value="Change Port" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Port" />
   </component>
 </project>
