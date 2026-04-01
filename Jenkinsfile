@@ -43,7 +43,7 @@ pipeline {
                 script {
                     try {
                         sh """
-                            if [ "\$(docker ps -aq -f name=^${CONTAINER}\\$)" ]; then
+                            if [ "\$(docker ps -aq -f name=^${CONTAINER}\$)" ]; then
                                 docker stop ${CONTAINER} || true
                                 docker rm ${CONTAINER} || true
                             fi
