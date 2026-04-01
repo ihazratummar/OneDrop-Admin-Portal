@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edbf0ffb-5b67-4835-8983-b7839393199c" name="Changes" comment="Update project features in README and workspace settings&#10;&#10;Enhanced README with detailed project features, tech stack, and setup instructions for better clarity. Adjusted `.idea/workspace.xml` to reflect new changes related to report management and API integration.">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OneDrop Portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OneDrop Portal.iml" afterDir="false" />
+    <list default="true" id="edbf0ffb-5b67-4835-8983-b7839393199c" name="Changes" comment="Added Jenkinsfile File">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_pages/BloodDonor.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_pages/BloodDonor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/BloodRequestModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/BloodRequestModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/donors.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/donors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747625150235</updated>
-      <workItem from="1775044790754" duration="3350000" />
+      <workItem from="1775044790754" duration="3756000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor donor and request handling, add chart visualizations&#10;&#10;Streamlined donor and blood request data management using Pydantic models. Integrated visualizations for donor statistics and request details with Plotly. Added utilities for time handling and delete confirmation dialogs.">
       <option name="closed" value="true" />
@@ -112,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747665547652</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Jenkinsfile File">
+      <option name="closed" value="true" />
+      <created>1775055020522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775055020522</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +124,7 @@
     <MESSAGE value="Refactor donor and request handling, add chart visualizations&#10;&#10;Streamlined donor and blood request data management using Pydantic models. Integrated visualizations for donor statistics and request details with Plotly. Added utilities for time handling and delete confirmation dialogs." />
     <MESSAGE value="Add report management feature with API integration&#10;&#10;Integrated new report management functionality via API, including handling reports with creation, update, and delete operations. Introduced Pydantic models for report validation and enhanced visualization using Streamlit. Updated dependencies in requirements.txt to include Pydantic and Plotly." />
     <MESSAGE value="Update project features in README and workspace settings&#10;&#10;Enhanced README with detailed project features, tech stack, and setup instructions for better clarity. Adjusted `.idea/workspace.xml` to reflect new changes related to report management and API integration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update project features in README and workspace settings&#10;&#10;Enhanced README with detailed project features, tech stack, and setup instructions for better clarity. Adjusted `.idea/workspace.xml` to reflect new changes related to report management and API integration." />
+    <MESSAGE value="Added Jenkinsfile File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Jenkinsfile File" />
   </component>
 </project>

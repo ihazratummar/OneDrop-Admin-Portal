@@ -104,7 +104,7 @@ pip install -r requirements.txt
 Inside `api.py`, configure your backend API base URL:
 
 ```python
-BASE_URL = "https://api.onedrops.online"
+BASE_URL = "https://api.onedropblood.top"
 ```
 
 ### 5. Run the App
