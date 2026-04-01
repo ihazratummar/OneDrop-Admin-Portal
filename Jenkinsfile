@@ -84,7 +84,7 @@ pipeline {
                             --network ${NETWORK} \
                             --ip ${STATIC_IP} \
                             --env-file ${ENV_FILE} \
-                            -p ${PORT}:${PORT} \
+                            -p 8484:${PORT} \
                             --restart unless-stopped \
                             ${IMAGE}
                         """

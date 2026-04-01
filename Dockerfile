@@ -12,6 +12,7 @@ RUN pip install -r requirements.txt
 
 # Expose port
 EXPOSE 8501
+EXPOSE 8484
 
 # Run the app
 CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.enableCORS=false", "--server.enableXsrfProtection=false"]
